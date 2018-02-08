@@ -70,7 +70,6 @@ aside section .info p {
 }
 /*----------------MAIN--------------*/
 main section {
-  background-color:  white;
   margin: 40px;
 }
 main section h2 {
@@ -79,4 +78,29 @@ main section h2 {
   font-size: 37px;
   letter-spacing: 5px;
   border-bottom: #1a1a1c 2px solid;
+}
+main .info-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+main .info-container .date {
+  flex-basis: 120px;
+}
+main .info-container .info-2 {
+  flex-basis: 510px;
+}
+main .info-container h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+main .info-container h4 {
+  font-size: 20px;
+}
+main .info-container h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+main .info-container p {
+  font-size: 16px;
 }
