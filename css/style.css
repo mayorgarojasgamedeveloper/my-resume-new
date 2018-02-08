@@ -104,3 +104,24 @@ main .info-container h5 {
 main .info-container p {
   font-size: 16px;
 }
+main section .info-languages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section .info-languages .info-languages-block {
+  flex-basis: 30%;
+  margin: 40px 10px;
+}
+main section .info-languages .info-languages-block h3{
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+main section .info-languages .info-languages-block h4{
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
