@@ -22,7 +22,7 @@ body {
   flex-basis: 1050px;
 }
 aside {
-  background-color: #c9cacc;
+  background: #c9cacc url("../img/aside-background.png") repeat-y;
   flex-basis: 340px;
 }
 main {
