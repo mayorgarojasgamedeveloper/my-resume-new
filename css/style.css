@@ -26,12 +26,10 @@ main {
 }
 /*------------ASIDE-----------------*/
 aside figure img {
-  background-color: #f5f5f5;
   display: block;
   margin: 40px auto 10px;
 }
 aside figure figcaption {
-  background-color: #f5f5f5;
   padding: 0 40px;
   text-align: center;
   line-height: 30px;
@@ -40,7 +38,6 @@ aside figure figcaption {
   font-size: 40px;
 }
 aside section p {
-  background-color: #f5f5f5;
   margin: 40px;
   line-height: 15px;
 }
@@ -48,7 +45,26 @@ aside section h2 {
   background-color: #1a1a1c;
   color: #c9cacc;
   text-transform: uppercase;
-  margin: 0 40px;
+  margin: 100px 40px 0;
   padding: 4px 0;
   text-align: center;
+}
+aside section .info {
+  margin-top: 10px;
+  height: 60px;
+}
+aside section .info img {
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
+aside section .info h3 {
+  position: relative;
+  top: -30px;
+  left: 110px;
+}
+aside section .info p {
+  position: relative;
+  top: -67px;
+  left: 70px;
 }
