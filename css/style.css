@@ -68,3 +68,15 @@ aside section .info p {
   top: -67px;
   left: 70px;
 }
+/*----------------MAIN--------------*/
+main section {
+  background-color:  white;
+  margin: 40px;
+}
+main section h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 37px;
+  letter-spacing: 5px;
+  border-bottom: #1a1a1c 2px solid;
+}
