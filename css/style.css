@@ -44,3 +44,11 @@ aside section p {
   margin: 40px;
   line-height: 15px;
 }
+aside section h2 {
+  background-color: #1a1a1c;
+  color: #c9cacc;
+  text-transform: uppercase;
+  margin: 0 40px;
+  padding: 4px 0;
+  text-align: center;
+}
