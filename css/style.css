@@ -73,6 +73,20 @@ aside section .info p {
   top: -67px;
   left: 70px;
 }
+aside section .info-meter {
+  margin: 20px 40px 0;
+}
+aside section .info-meter h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+aside section .info-meter meter {
+  width: 100%;
+}
+aside section .info-meter meter::-webkit-meter-bar {background: #e6e6e9;}
+aside section .info-meter meter::-webkit-meter-optimum-value {background: #9b9281;}
+aside section .info-meter meter::-moz-meter-bar {background: #e6e6e9;}
+aside section .info-meter meter::-moz-meter-optimum-value {background: #9b9281;}
 /*----------------MAIN--------------*/
 main section {
   margin: 40px;
