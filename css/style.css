@@ -98,49 +98,120 @@ main section h2 {
   letter-spacing: 5px;
   border-bottom: #1a1a1c 2px solid;
 }
-main .info-container {
+ .info-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-main .info-container .date {
-  flex-basis: 120px;
+ .info-container .date {
+  flex-basis: 30%;
 }
-main .info-container .info-2 {
-  flex-basis: 510px;
+ .info-container .info-2 {
+  flex-basis: 100%;
 }
-main .info-container h3 {
+.info-container h3 {
   font-weight: bold;
   font-size: 22px;
 }
-main .info-container h4 {
+.info-container h4 {
   font-size: 16px;
 }
-main .info-container h5 {
+.info-container h5 {
   font-weight: bold;
   font-size: 20px;
 }
-main .info-container p {
+.info-container p {
   font-size: 16px;
 }
-main section .info-languages{
+.info-languages{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-main section .info-languages .info-languages-block {
+.info-languages .info-languages-block {
   flex-basis: 30%;
   margin: 40px 10px;
 }
-main section .info-languages .info-languages-block h3{
+.info-languages .info-languages-block h3{
   font-weight: bold;
   font-size: 22px;
   letter-spacing: 2px;
   text-align: center;
 }
-main section .info-languages .info-languages-block h4{
+.info-languages .info-languages-block h4{
   font-weight: lighter;
   font-size: 15px;
   letter-spacing: 2px;
   text-align: center;
+}
+
+@media (max-width: 450px) {
+  aside figure img {
+
+  }
+  aside figure figcaption {
+    font-size: 80px;
+  }
+  aside section p {
+    margin: 40px;
+    font-size: 40px;
+    line-height: 35px;
+  }
+  aside section .info h3 {
+    position: relative;
+    font-size: 40px;
+    top: -30px;
+    left: 110px;
+  }
+  aside section .info p {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 10px;
+    top: -67px;
+    left: 70px;
+  }
+  aside section .info-meter h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .info-container h1{
+    font-size: 60px;
+  }
+  .info-container h2{
+    font-size: 60px;
+  }
+  .info-container h3{
+    font-size: 60px;
+  }
+  .info-container h4{
+    font-size: 50px;
+
+  }
+  .info-container h5 {
+    font-size: 50px;
+  }
+  .info-container p {
+    font-size: 50px;
+  }
+  body {
+    flex-basis: 100%;
+  }
+  .flex-container {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+  aside {
+    background-image: none;
+    flex-basis: 100%;
+  }
+  main {
+    flex-basis: 100%;
+  }
+  .info-languages .info-languages-block h3{
+    font-size: 80px;
+  }
+  .info-languages .info-languages-block h4{
+    font-size: 50px;
+  }
 }
